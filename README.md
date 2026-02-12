@@ -38,3 +38,80 @@
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/[username]/[repo-name]/main/install-packages.sh)
+
+
+روش استفاده
+
+    دانلود اسکریپت:
+
+bash
+
+git clone https://github.com/[username]/[repo-name].git
+cd [repo-name]
+chmod +x install-packages.sh
+
+    اجرای اسکریپت:
+
+bash
+
+sudo ./install-packages.sh
+
+📸 اسکرین‌شات
+
+https://screenshot.png
+🤝 مشارکت
+
+مشارکت شما در بهبود این پروژه بسیار خوش‌آیند است!
+
+    Fork کنید
+
+    Branch جدید بسازید (git checkout -b feature/amazing-feature)
+
+    Commit کنید (git commit -m 'Add some amazing feature')
+
+    Push کنید (git push origin feature/amazing-feature)
+
+    Pull Request بزنید
+
+📝 نکات مهم
+
+    اسکریپت نیاز به دسترسی روت دارد
+
+    پیشنهاد می‌شود قبل از اجرا، از سیستم Backup بگیرید
+
+    برای نصب همه موارد، گزینه 14 را انتخاب کنید
+
+⚠️ عیب‌یابی
+مشکل	راه‌حل
+خطای GPG	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys [KEY]
+نصب Docker	مطمئن شوید سیستم‌عامل 64 بیتی است
+نصب MongoDB	فقط در اوبونتو 20.04 پشتیبانی می‌شود
+📜 لایسنس
+
+این پروژه تحت لایسنس MIT منتشر شده است.
+
+❤️ با عشق برای جامعه اوبونتو
+text
+
+
+### 3️⃣ **اضافه کردن فایل‌های دیگر**
+
+**فایل `.gitignore`:**
+
+*.deb
+*.tar.gz
+*.zip
+*.log
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+text
+
+
+**فایل `install.sh` برای نصب سریع:**
+```bash
+#!/bin/bash
+bash <(curl -s https://raw.githubusercontent.com/[username]/[repo-name]/main/install-packages.sh)
