@@ -1,6 +1,4 @@
 # Ubuntu-Package-Installer-Script
-# Ubuntu Package Installer Script 🚀
-# Ubuntu Package Installer Script 🚀
 
 یک اسکریپت کامل و جامع برای نصب خودکار پکیج‌ها و برنامه‌های مورد نیاز در اوبونتو
 
