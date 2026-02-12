@@ -95,19 +95,20 @@
 ### 📦 **نصب با یک خط فرمان**
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/[USERNAME]/[REPO-NAME]/main/install-packages.sh)
+bash <(curl -s https://raw.githubusercontent.com/hiddenservicevpn/Ubuntu-Package-Installer-Script/main/main.sh)
 ```
 
 ### 📥 **روش سنتی**
 
 ```bash
 # دانلود ریپازیتوری
-git clone https://github.com/[USERNAME]/[REPO-NAME].git
-cd [REPO-NAME]
+# دانلود ریپازیتوری
+git clone https://github.com/hiddenservicevpn/Ubuntu-Package-Installer-Script.git
+cd Ubuntu-Package-Installer-Script
 
 # اجرای اسکریپت
-chmod +x install-packages.sh
-sudo ./install-packages.sh
+chmod +x main.sh
+sudo ./main.sh
 ```
 
 <p align="center">
